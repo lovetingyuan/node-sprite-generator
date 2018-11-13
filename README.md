@@ -13,9 +13,9 @@ npm install node-sprite-generator-simple
 ## Usage
 
 ```javascript
-const nsg = require('node-sprite-generator');
+const nsgs = require('node-sprite-generator-simple');
 
-nsg({
+nsgs({
     src: [
         'images/sprite/*.png'
     ],
