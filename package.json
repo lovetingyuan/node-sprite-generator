@@ -1,7 +1,7 @@
 {
-    "name": "node-sprite-generator",
-    "version": "0.10.2",
-    "description": "Generates image sprites and their spritesheets (css, stylus, sass, scss or less) from sets of images. Supports retina sprites. Provides express middleware and grunt task.",
+    "name": "node-sprite-generator-simple",
+    "version": "0.0.1",
+    "description": "Generates image sprites and their spritesheets (css, stylus, sass, scss or less) from sets of images. Supports retina sprites.",
     "main": "lib/index.js",
     "dependencies": {
         "bin-pack": "1.0.2",
@@ -9,12 +9,7 @@
         "glob": "7.1.2",
         "jimp": "0.2.27",
         "mkdirp": "0.5.1",
-        "ramda": "0.25.0",
-        "underscore": "1.9.1"
-    },
-    "optionalDependencies": {
-        "canvas": "1.6.11",
-        "gm": "1.23.1"
+        "ramda": "0.25.0"
     },
     "devDependencies": {
         "base64-arraybuffer": "0.1.5",
@@ -65,7 +60,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/selaux/node-sprite-generator"
+        "url": "git@github.com:lovetingyuan/node-sprite-generator.git"
     },
+    "files": [
+        "lib"
+    ],
     "license": "MIT"
 }
